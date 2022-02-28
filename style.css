@@ -1,12 +1,24 @@
 * {
-  box-sizing: border-box;
-  margin: 1;
-  padding: 1;
+  margin: 0;
+  padding: 0.01cm;
 }
 
 body {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
+}
+
+.body {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.nav-main {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 20px 1;
 }
 
 a {
@@ -22,18 +34,8 @@ ul {
   width: 100%;
   margin: auto;
 }
-
-/* Navigation */
-.nav-main {
-  font-size: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  padding: 20px 0;
-}
-
-.nav-LTX {
+/* Navegar */
+.nav-test {
   width: 60px;
 }
 
@@ -46,7 +48,7 @@ ul {
 }
 
 .nav-main ul li a {
-  padding: 6px;
+  padding: 8px;
 }
 
 .nav-main ul li a:hover {
